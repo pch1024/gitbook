@@ -1,0 +1,52 @@
+{
+    "title": "GitBook Help",
+    "description": "GitBook Help",
+    "language": "zh-hans",
+    "plugins": [ 
+        "github" ,
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/pch1024/gitbook"
+        },
+        "disqus": {
+            "shortName": "philip_pei"
+        },
+        "sharing": {
+            "weibo": true,
+            "twitter": false,
+            "facebook": false
+        },
+        "fontSettings": {
+            "theme": "night",
+            "family": "sans",
+            "size":1
+        }
+    },
+    "links": {
+        "sidebar": {
+            "Blog": "https://peichenhu.cn/",
+            "GitHub": "https://github.com/pch1024"
+        },
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null,
+            "weibo": null,
+            "all": null
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    }
+}
